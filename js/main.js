@@ -15,7 +15,7 @@ function HandleOnClick(obj) {
             vid_elm = document.getElementById("vidwindow3");
             break;
     }
-    //vid_elm.load();
+    vid_elm.load();
     vid_elm.currentTime = 0;
     vid_elm.play();
 }
