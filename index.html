@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Multi Video Window</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script language="JavaScript" type="text/javascript" src=js/main.js></script>
+    <script language="JavaScript" type="text/javascript" src=js/nav.js></script>
+  </head>
+
+  <body>
+    <div id="backgroundvideo"></div>
+    <div id="chatpan1">
+        <video id=vidwindow1 width="320" height="180"> 
+        </video>
+    </div>
+    <div id="chatpan2">
+        <video id=vidwindow2 width="320" height="180">
+        </video>
+    </div>
+    <div id="chatpan3">
+        <video id=vidwindow3 width="320" height="180">
+        </video>
+    </div>
+    
+    <div id="selectionpan">
+        <label for="SelectVideo" style="font-size:24px">Select Video to Play:</label>
+        <button id="TopButton" style="font-size:20px" onclick="HandleOnClick(this);">Top</button>
+        <button id="MidButton" style="font-size:20px" onclick="HandleOnClick(this);">Middle</button>
+        <button id="BottomButton" style="font-size:20px" onclick="HandleOnClick(this);">Bottom</button>
+    </div>
+  </body>
+</html>
